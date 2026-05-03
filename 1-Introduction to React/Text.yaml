@@ -1,15 +1,45 @@
-===============Hello React===============
-As its official tagline states, React is a library for building user interfaces. React is not a framework – it's not even exclusive to the web. It's used with other libraries to render to certain environments. For instance, React Native can be used to build mobile applications.
+title: "Hello React"
+sections:
 
-To build for the web, developers use React in tandem with ReactDOM. React and ReactDOM are often discussed in the same spaces as — and utilized to solve the same problems as — other true web development frameworks. When we refer to React as a "framework", we're working with that colloquial understanding.
+  introduction:
+    description: >
+      React is a JavaScript library for building user interfaces.
+      It is not a framework and is not limited to the web.
+      It can be used with other libraries to render in different environments.
+      For example, React Native is used for mobile application development.
 
-React's primary goal is to minimize the bugs that occur when developers are building UIs. It does this through the use of components — self-contained, logical pieces of code that describe a portion of the user interface. These components can be composed together to create a full UI, and React abstracts away much of the rendering work, leaving you to concentrate on the UI design.
+  web_usage:
+    description: >
+      For web development, React is used together with ReactDOM.
+      React and ReactDOM are often compared with other web frameworks,
+      as they solve similar problems.
+      When called a "framework", it is a colloquial reference rather than a strict definition.
 
-===============Use cases==============
-Unlike the other frameworks covered in this module, React does not enforce strict rules around code conventions or file organization. This allows teams to set conventions that work best for them, and to adopt React in any way they would like to. React can handle a single button, a few pieces of an interface, or an app's entire user interface.
+  core_goal:
+    description: >
+      React aims to reduce UI development bugs by using components.
+      Components are self-contained pieces of code representing part of the UI.
+      These components can be combined to build a complete user interface.
+      React handles most rendering logic, allowing developers to focus on design.
 
-While React can be used for small pieces of an interface, it's not as easy to "drop into" an application as a library like jQuery, or even a framework like Vue — it is more approachable when you build your entire app with React.
+  use_cases:
+    description: >
+      React does not enforce strict rules for project structure or conventions.
+      Teams can define their own architecture based on their needs.
+      It can be used for:
+        - A single UI element (like a button)
+        - Partial interface sections
+        - Full-scale applications
 
-In addition, many of the developer-experience benefits of a React app, such as writing interfaces with JSX, require a compilation process. Adding a compiler like Babel to a website makes the code on it run slowly, so developers often set up such tooling with a build step. React arguably has a heavy tooling requirement, but it can be learned.
+  limitations_and_considerations:
+    description: >
+      React is not as simple to drop into an existing project as libraries like jQuery or Vue.
+      It works best when building a full application using React from the start.
+      Features like JSX require a build process.
+      Tools like Babel are used for compilation, which adds complexity and can impact performance if not configured properly.
 
-This article is going to focus on the use case of using React to render the entire user interface of an application with the support of Vite, a modern front-end build tool.
+  tooling_and_modern_workflow:
+    description: >
+      Modern React development typically uses build tools such as Vite.
+      These tools handle compilation, bundling, and development workflow optimization.
+      The focus of this approach is building full user interfaces using React with efficient tooling support.
