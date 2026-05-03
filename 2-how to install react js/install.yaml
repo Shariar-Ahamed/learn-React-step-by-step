@@ -1,5 +1,66 @@
-name: Deploy Project
-on: push
-jobs:
-  build:
-    runs-on: ubuntu-latest
+title: "React JS Installation Guide"
+
+repo: "Important-note-and-shortcuts-components"
+folder: "4-react-install"
+
+documentation_url: "https://github.com/Shariar-Ahamed/Important-note-and-shortcuts-components/tree/main/4-react-install"
+
+description: >
+  This section explains how to install React JS step by step.
+  It includes prerequisites, setup methods, and basic run commands
+  for beginners to start a React project properly.
+
+prerequisites:
+  tools:
+    - Node.js (LTS version recommended)
+    - npm or yarn
+    - Code editor (VS Code recommended)
+  knowledge:
+    - HTML basics
+    - CSS basics
+    - JavaScript fundamentals
+
+installation_methods:
+
+  method_1_create_react_app:
+    title: "Using Create React App (Easy Method)"
+    steps:
+      - step: 1
+        command: "npx create-react-app my-app"
+        description: "Creates a new React project automatically"
+      - step: 2
+        command: "cd my-app"
+        description: "Move into project folder"
+      - step: 3
+        command: "npm start"
+        description: "Runs the development server on localhost"
+
+  method_2_vite_recommended:
+    title: "Using Vite (Modern & Fast Method)"
+    steps:
+      - step: 1
+        command: "npm create vite@latest my-app"
+        description: "Create a new Vite React project"
+      - step: 2
+        command: "cd my-app"
+        description: "Navigate into project folder"
+      - step: 3
+        command: "npm install"
+        description: "Install dependencies"
+      - step: 4
+        command: "npm run dev"
+        description: "Start development server"
+
+important_notes:
+  - "Node.js must be installed before starting React setup"
+  - "Vite is recommended for modern React development"
+  - "Create React App is still useful for beginners"
+  - "Always run commands inside project directory"
+
+output_result:
+  url: "http://localhost:3000 (CRA) / http://localhost:5173 (Vite)"
+  expected: "React app running successfully in browser"
+
+summary: >
+  After completing these steps, you will have a fully working React
+  development environment ready for building web applications.
