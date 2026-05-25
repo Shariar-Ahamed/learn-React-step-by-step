@@ -1,0 +1,12 @@
+.Nevigation-container{
+    text-align: center;
+    background-color: aqua;
+    padding: 10px;
+}
+
+.Nevigation-container a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    margin: 20px 50px;
+}
